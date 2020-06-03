@@ -36,8 +36,7 @@ jobs:
     - name: Zola Deploy to Pages
       uses: shalzz/zola-deploy-action@v0.11.0
       env:
-        PAGES_BRANCH: gh-pages
-        BUILD_DIR: docs
-        BUILD_FLAGS: --drafts
+        #PAGES_BRANCH: gh-pages
+        #BUILD_FLAGS: --drafts
         TOKEN: ${{ secrets.TOKEN }}
 
