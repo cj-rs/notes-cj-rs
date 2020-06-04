@@ -1,4 +1,5 @@
 +++
+title = "Github Actions"
 +++
 
 # Various github actions
